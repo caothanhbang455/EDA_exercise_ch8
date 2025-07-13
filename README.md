@@ -1,2 +1,77 @@
-This is for practicing feature engineering, scaler, pipeline and process text which apply logistic regression model from sklearn
-The data set I put in this link drive id: 1KPEF3iEjbEfhzp67Lj2tQy7aD7O4rEii
+# Logistic regression with feature engineering and text preprocessing
+
+This repo is designed for practicing feature engineering, scaling, text processing, and building a machine learning pipeline using logistic regression from the `scikit-learn` library.
+
+## Objective
+
+The objective is to demonstrate how to:
+- Apply preprocessing techniques for numerical and textual data
+- Use scalers such as `StandardScaler` or `MinMaxScaler`
+- Build modular and reusable pipelines
+- Train and evaluate a logistic regression classifier effectively
+
+## Dataset
+
+- **Location:** [Google Drive dataset link](https://drive.google.com/file/d/1KPEF3iEjbEfhzp67Lj2tQy7aD7O4rEii/view?usp=sharing)  
+- **Format:** CSV file  
+- **Includes:**
+  - Structured numerical features
+  - One or more columns containing textual data
+
+## Key steps
+
+1. **Import libraries**  
+   Load essential packages for data manipulation, visualization, and modeling.
+
+2. **Load dataset**  
+   Read the dataset from the provided source and perform initial exploration.
+
+3. **Exploratory data analysis (EDA)**  
+   Understand distributions, detect missing values, and analyze text features.
+
+4. **Preprocessing**
+   - Handle missing values
+   - Apply scaling to numerical features
+   - Tokenize and clean text data
+   - Use `TfidfVectorizer` or `CountVectorizer` for feature extraction from text
+
+5. **Feature engineering**
+   - Create or transform new features if needed
+   - Concatenate numerical and text features for modeling
+
+6. **Build machine learning pipeline**
+   - Combine preprocessing steps using `ColumnTransformer` and `Pipeline`
+   - Fit a logistic regression model
+
+7. **Model evaluation**
+   - Use accuracy, precision, recall, and F1-score
+   - Optionally visualize confusion matrix and ROC curve
+
+## Technologies used
+
+- Python 3.x
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+- nltk / spaCy (if text cleaning is required)
+
+## Results
+
+You can include here a short summary of your model’s performance. For example:
+
+| Metric     | Score |
+|------------|-------|
+| Accuracy   | 0.89  |
+| Precision  | 0.87  |
+| Recall     | 0.86  |
+| F1-score   | 0.86  |
+
+> Replace the values with actual results after running the notebook.
+
+## How to run
+
+1. Clone the repository or download the notebook.
+2. Install required dependencies:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
