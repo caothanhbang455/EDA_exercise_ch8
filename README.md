@@ -55,19 +55,6 @@ The objective is to demonstrate how to:
 - matplotlib, seaborn
 - nltk / spaCy (if text cleaning is required)
 
-## Results
-
-You can include here a short summary of your model’s performance. For example:
-
-| Metric     | Score |
-|------------|-------|
-| Accuracy   | 0.89  |
-| Precision  | 0.87  |
-| Recall     | 0.86  |
-| F1-score   | 0.86  |
-
-> Replace the values with actual results after running the notebook.
-
 ## How to run
 
 1. Clone the repository or download the notebook.
